@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    color: #35424a;
+}
+h3 {
+    color: #35424a;
+}
+h4 {
+    color: #35424a;
+}
+h5 {
+    color: #35424a;
+}
+h6 {
+    color: #35424a;
+}
+p {
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+a {
+    color: #35424a;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+nav {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #ffffff;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    margin-bottom: 90px; 
+} 
+
+.container {
+    padding: 20px;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container table, th, td {
+    border: 1px solid #35424a;
+}
+.container th, td {
+    padding: 10px;
+    text-align: left;
+}
+.container th {
+    background: #35424a;
+    color: #ffffff;
+}
+.container td {
+    background: #ffffff;
+}
+.container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #35424a;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}   
+.container .btn:hover {
+    background: #2c3e50;
+}
+.container .btn:active {
+    background: #1abc9c;
+}
+.container .btn:focus {
+    outline: none;
+}
+.container .btn:focus-visible {
+    outline: 2px solid #1abc9c;
+}
