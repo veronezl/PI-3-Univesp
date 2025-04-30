@@ -23,6 +23,24 @@ h2 {
 h3 {
     color: #35424a;
     cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+    position: relative; /* Necessário para posicionar o tooltip */
+}
+
+h3:hover::after {
+    content: "Clique na pergunta para ver a resposta"; /* Mensagem do tooltip */
+    position: absolute;
+    top: 100%; /* Exibe abaixo do elemento */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: 5px;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 p {
